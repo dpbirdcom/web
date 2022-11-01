@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ComplexType
-parent: Folder 1
+parent: Folder-1
 nav_order: 2
 ---
 
