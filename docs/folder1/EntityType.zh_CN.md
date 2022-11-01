@@ -1,6 +1,6 @@
 ---
 layout: default
-title: EntityType
+title: EntityType2
 nav_order: 3
 ---
 

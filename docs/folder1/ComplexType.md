@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ComplexType
+title: ComplexType2
 nav_order: 3
 ---
 
