@@ -1,7 +1,7 @@
 ---
 layout: default
 title: OData中的其它类型
-nav_order: 3
+nav_order: 2
 ---
 
 # OData中的其它类型
