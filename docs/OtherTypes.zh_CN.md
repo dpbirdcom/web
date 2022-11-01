@@ -1,5 +1,11 @@
+---
+layout: default
+title: OData中的其它类型
+nav_order: 3
+---
+
 # OData中的其它类型
-# EnumType
+## EnumType
 EnumType是在OData里定义枚举类型，枚举值是通过子元素Element来表达。
 
 ```xml
@@ -34,7 +40,7 @@ http://server/odata.svc/People('admin')
 }
 ```
 
-# ComplexType
+## ComplexType
 如果需要用到一些复杂的数据类型，可以定义ComplexType。如果把EntityType看作是数据库的表，那ComplexType可以看作Java Bean。
 ```xml
 <Schema>
