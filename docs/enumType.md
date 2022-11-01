@@ -1,7 +1,7 @@
 ---
 layout: default
 title: levels
-nav_order: 2
+nav_order: 4
 ---
 # levels
 OData的请求，$expand选项可以带上$levels参数，让你想几层就几层。

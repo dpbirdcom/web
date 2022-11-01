@@ -2,7 +2,7 @@
 layout: default
 title: ComplexType
 parent: Folder-1
-nav_order: 2
+nav_order: 1
 ---
 
 # ComplexType
