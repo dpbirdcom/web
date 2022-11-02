@@ -1,6 +1,6 @@
 remote_theme: just-the-docs/just-the-docs
 title: OData Lab
-search_enabled: false
+search_enabled: true
 
 # Back to top link
 back_to_top: true
