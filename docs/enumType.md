@@ -1,6 +1,6 @@
 ---
 layout: default
-title: __Levels
+title: levels
 nav_order: 4
 ---
 
