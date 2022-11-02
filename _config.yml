@@ -16,4 +16,4 @@ aux_links:
   "OData Lab on GitHub":
     - "//github.com/dpbirdcom/ofbiz-odatalab/"
 
-footer_content: "Copyright &copy; 2017-2022 <a href=\"https://www.netlify.com/\">This site is powered by Netlify.</a>"
+footer_content: "Copyright &copy; 2017-2022 <a href=\"http://www.dpbird.com/\">DPBIRD</a>."
