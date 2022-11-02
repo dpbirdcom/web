@@ -1,8 +1,11 @@
 remote_theme: just-the-docs/just-the-docs
 title: OData Lab
 search_enabled: false
+
+# Back to top link
 back_to_top: true
-back_to_top_text: "Go to top"
+back_to_top_text: "回到顶部"
+
 # footer_content: "Copyright &copy; 2020-2020 <a href=\"https://dpbird.com\">DPBIRD</a>"
 # Enable or disable heading anchors
 heading_anchors: true
