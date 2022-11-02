@@ -1,8 +1,9 @@
 ---
 layout: default
-title: levels
+title: __Levels
 nav_order: 4
 ---
+
 # levels
 OData的请求，$expand选项可以带上$levels参数，让你想几层就几层。
 假设我们想请求一些数据，需要子对象的子对象的子对象......，我们就需要expand expand expand...，这样查询语句就会很长，并且不易读懂。
