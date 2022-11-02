@@ -3,7 +3,7 @@ title: OData Lab
 search_enabled: false
 back_to_top: true
 back_to_top_text: "回到顶部"
-footer_content: "Copyright &copy; 2020-2020 <a href=\"https://dpbird.com\">>DPBIRD</a>"
+footer_content: "Copyright &copy; 2020-2020 <a href=\"https://dpbird.com\">DPBIRD</a>"
 # Enable or disable heading anchors
 heading_anchors: true
 
