@@ -1,2 +1,3 @@
 remote_theme: just-the-docs/just-the-docs
 title: OData Lab
+search_enabled: true
