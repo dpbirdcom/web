@@ -23,4 +23,4 @@ footer_content: "Copyright &copy; 2017-2022 <a href=\"http://www.dpbird.com/\">D
 kramdown:
   syntax_highlighter_opts:
     block:
-      line_numbers: true
+      line_numbers: false
