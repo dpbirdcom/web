@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ComplexType
-parent: Folder-1
+title: ComplexType简介
+parent: ComplexType
 nav_order: 1
 last_modified_date: Feb 21 2018 at 10:02 AM
 ---
