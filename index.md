@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-nav_order: 1
+nav_order: 0
 description: "OData Lab是一个OData研究社群"
 permalink: /
 ---
