@@ -1,7 +1,7 @@
 ---
 layout: default
 title: $expand结合$levels
-parent: ComplexType
+parent: OdataQuery
 nav_order: 1
 ---
 
