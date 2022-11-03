@@ -1,3 +1,9 @@
+---
+layout: default
+title: EntitySet
+nav_order: 5
+---
+
 # EntitySet
 
 在OData的metadata定义中，有EntityType的定义，我们可以简单认为这就是定义了一张表。还有就是EntitySet的定义，许多人对于什么是EntitySet，以及应该怎样定义EntitySet感到困惑。

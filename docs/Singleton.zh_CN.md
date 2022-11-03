@@ -1,3 +1,9 @@
+---
+layout: default
+title: Singleton
+nav_order: 6
+---
+
 # Singleton
 
 在OData的metadata定义中，有Singleton的定义。我们知道EntitySet是EntityType请求的一种入口，还有一种入口就是Singleton。

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Action
+nav_order: 8
+---
+
 # Action
 
 Action与Function的主要区别是，Action可以看作是写操作，而Function是读操作。其它的区别还有：Action是post调用，而Function是get调用；Action可以没有返回，而Function必须有返回。

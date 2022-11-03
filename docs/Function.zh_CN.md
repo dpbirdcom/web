@@ -1,3 +1,9 @@
+---
+layout: default
+title: Function
+nav_order: 7
+---
+
 # Function
 
 在OData的metadata中，有Function及Action的定义。Function和Action的主要区别在于，Function是只读的，客户端调用Function后，服务端不会有任何状态影响。而Action代表的是某种写操作，客户端调用后，服务端会产生状态影响（说直接点就是有数据更改了）。
