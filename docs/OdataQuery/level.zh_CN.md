@@ -1,6 +1,6 @@
 ---
 layout: default
-title: levels
+title: $expand结合$levels
 nav_order: 4
 ---
 
@@ -10,10 +10,12 @@ OData的请求，$expand选项可以带上$levels参数，让你想几层就几�
 对此，OData有了$levels的解决方案，也就是告诉OData服务，需要自动expand几层，举例如下：
 Metadata
 ```xml
-< EntityType Name="Content">
-    …  
-    < NavigationProperty Name="SubContent" Type="Collection(com.dpbird.Content)" />
-</ EntityType>
+<Schema>
+    <EntityType Name="Content">
+        …  
+        <NavigationProperty Name="SubContent" Type="Collection(com.dpbird.Content)" />
+    </EntityType>
+</Schema>
 ```
 Content有NavigationProperty名为SubContent，其类型也是Content，这时候如果想查询Content的SubContent的SubContent的SubContent，可以这么写：  
 `Odata.svc/Contents(‘id’)?$expand=SubContent($expand=SubContent($expand=SubContent))`  
