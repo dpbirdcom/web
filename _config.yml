@@ -24,3 +24,8 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: false
+
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+ga_tracking: G-4M7MPLZFGT
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
