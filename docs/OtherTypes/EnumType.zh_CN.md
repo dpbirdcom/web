@@ -1,6 +1,7 @@
 ---
 layout: default
-title: OData中的其它类型
+title: EnumType
+parent: OtherTypes
 nav_order: 3
 ---
 
