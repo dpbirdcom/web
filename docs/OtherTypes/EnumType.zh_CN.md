@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EnumType
-parent: OtherTypes
+parent: 其它数据类型
 nav_order: 3
 ---
 

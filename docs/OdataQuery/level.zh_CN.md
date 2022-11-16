@@ -1,7 +1,7 @@
 ---
 layout: default
 title: $expand结合$levels
-parent: OdataQuery
+parent: OData数据查询
 nav_order: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ComplexType简介
-parent: OtherTypes
+parent: 其它数据类型
 nav_order: 1
 last_modified_date: Feb 21 2018 at 10:02 AM
 ---
