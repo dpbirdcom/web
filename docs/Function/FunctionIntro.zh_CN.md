@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Function
-nav_order: 7
+parent: Function
+nav_order: 1
 ---
 
 # Function

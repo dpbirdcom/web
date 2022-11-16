@@ -1,7 +1,8 @@
 ---
 layout: default
 title: IsComposable
-nav_order: 9
+parent: Function
+nav_order: 2
 ---
 
 # Function的IsComposable

@@ -7,4 +7,3 @@ permalink: /
 ---
 
 OData (Open Data Protocol) 开放数据协议。在这里我们介绍和讨论OData及其应用，希望能够找到更多的爱好者、研究者共同推动OData在中国的发展。
-1234
