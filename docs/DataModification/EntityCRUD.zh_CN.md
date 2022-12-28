@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EntityType CRUD
-parent: DataModification
+parent: 数据更改
 nav_order: 1
 ---
 
