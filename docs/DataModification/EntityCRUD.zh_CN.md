@@ -1,11 +1,11 @@
 ---
 layout: default
-title: EntityType CRUD
+title: EntityType新增修改删除
 parent: 数据更改
 nav_order: 1
 ---
 
-# 数据修改
+# EntityType新增修改删除
 OData中有一套方案用于修改EntityType，也就是新增、修改、删除
 ```xml
 <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="com.dpbird">
