@@ -1,12 +1,12 @@
 ---
 layout: default
-title: EntityType新增修改删除
+title: Deep Insert
 parent: 数据更改
-nav_order: 1
+nav_order: 2
 ---
 
-# EntityType新增修改删除
-OData中有一套方案用于修改EntityType，也就是新增、修改、删除
+# Deep Insert
+当创建一条数据时，同时创建该条数据的子对象，这个就叫Deep Insert。
 ```xml
 <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="com.dpbird">
     <EntityType Name="ProductType">
@@ -54,8 +54,7 @@ OData中有一套方案用于修改EntityType，也就是新增、修改、删�
     </EntityContainer>
 </Schema>
 ```
-## 新增
-新增一条EntityType，采用的是http的POST方式。
+创建一条Product数据的同时，创建两条其对应的ProductPrice
 ```html
 POST serviceRoot/Products
 OData-Version: 4.0
@@ -67,29 +66,17 @@ Accept: application/json
 {
   "@odata.type" : "com.dpbird.Product",
   "productId": "10000",
-  "productName" : "Dell XP15",
-  "productType" : "FinishedProduct"
+  "productName" : "Dell XP15 32GB",
+  "ProductPrice": [
+    {
+      "currencyUomId": "USD",
+      "price": 2560.00
+    },
+    {
+      "currencyUomId": "CNY",
+      "price": 15000.00
+    }
+  ]
 }
 ```
-注意，请求的地址是EntitySet，就像我们先前所描述的，任何EntityType是无法直接访问的，包括新建，必须通过EntitySet。这样就会在系统里创建一条数据。
-## 修改
-修改一条EntityType，采用的是http的PATCH方式
-```html
-PATCH serviceRoot/Products('10000')
-OData-Version: 4.0
-Content-Type: application/json;odata.metadata=minimal
-Accept: application/json
-```
-请求的Payload也是一段JSON。
-```json
-{
-  "@odata.type" : "com.dpbird.Product",
-  "productName" : "Dell XP15 32GB"
-}
-```
-同样，请求的地址是EntitySet，而不是EntityType。
-## 删除
-删除一条EntityType，采用的是http的DELETE方式
-```html
-DELETE serviceRoot/Products('10000')
-```
+注意，子对象里的productId，可以不用写，因为ProductPrice里有ReferentialConstraint的定义。
